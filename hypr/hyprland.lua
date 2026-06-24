@@ -473,5 +473,5 @@ hl.layer_rule({"unset", "waybar"})
 hl.window_rule({
     name = "ws1-anti-squish-float",
     match = { workspace = "1" },
-    floating = true,
+    float = true,
 })
