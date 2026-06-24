@@ -467,3 +467,11 @@ hl.layer_rule({"unset", "waybar"})
 
 
 
+-- =============================================================
+-- THE WORKSPACE 1 IMMORTALITY TRAP (Anti-Alt-Tab Squish)
+-- =============================================================
+hl.window_rule({
+    name = "ws1-anti-squish-float",
+    match = { workspace = "1" },
+    floating = true,
+})
